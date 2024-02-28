@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <style>
+         body{
+            background-image: url('./assests/bgimg4.jpg');
+            background-repeat: no-repeat;
+             background-size:100vw 600px; 
+            /* background-size: cover; */
+            position:relative;
+        } 
+        h1{
+            color:rgb(9, 10, 11);
+        }
+        .mail{
+            height:40px;
+            width:400px;
+            background: transparent;
+            
+        }
+        .pwd{
+            height:40px;
+            width:250px;
+            background: transparent;
+        }
+        .span{
+            font-size: 10rem;
+        }
+        .button{
+            height:50px;
+            width:120px;
+            color: white;
+            border-radius: 20px;
+            background-color: black;
+        }
+        .signin{
+            position:absolute;
+            left:25em;
+            top:4em;
+        }
+        .element::-webkit-input-placeholder {
+    color: rgb(7, 7, 11);
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="signin">
+    <img src="./assests/airjordanlogo.png" height="40px" width="40px">
+    <img src="./assests/nike.png" height="60px"  width="60px">   
+   <h1>Enter your email to join us or sign in</h1><br><br>
+   <input class="mail" type="email" name="mail"  placeholder="Email" required autocomplete="on"><br><br><br>
+   <input class="pwd"  type="password" name="pwd" placeholder="password" required autocomplete="on"><br><br><br>
+   <input type="checkbox" required><span>I agree to Nike's Privacy Policy and Terms of use</span><br><br>
+   <input class="button"type="Button" value="Continue">
+    </div>
+    
+</body>
+</html>

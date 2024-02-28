@@ -1,0 +1,307 @@
+/* .container{
+    background-color: black;
+} */
+body{
+    height:100vh;
+    overflow-x: hidden;
+    
+}
+ .container1{
+    display:flex;
+    justify-content: center;
+    margin-left:280px;
+    
+} 
+.search{
+    height:40px;
+    width:160px;
+    border-radius: 10px;
+    position:relative;
+    bottom:6px;
+    left:30px;
+}
+.searchlogo{
+    position:relative;
+    top:47px;
+    right:4px;
+    border-radius:10px;
+}
+.loveicon{
+    position:relative;
+    top:45px;
+    left:90px;
+    
+}
+/* .loveicon:hover{
+    color:azure;
+} */
+.bagicon{
+    position:relative;
+    top:43px;
+    left:150px;
+}
+.nikeicon{
+    position:absolute;
+    left:3px;
+    top:40px;
+    
+
+
+}
+ .men,.women{
+    display:none;
+} 
+.w:hover .womens{
+    display:flex;
+    flex-direction: column;
+}
+.m:hover .men{
+    display:flex;
+    flex-direction: column;
+    
+}
+.mens-products,.womens-products{
+    display:flex;
+    column-gap: 10px;
+}
+h4{
+    box-sizing: border-box;
+}
+
+/* .backgroundimage{
+    height:auto;
+    width:100%;
+    background: url('./assests/frontphoto.jpg');
+    background-repeat: no-repeat;
+} */
+.backgroundimage{
+    position:relative;
+}
+.frontphoto{
+    position:absolute;
+    left:100px;
+    
+}
+.greenshoe{
+    position:absolute;
+    left:430px;
+    background-blend-mode:lighten;
+}
+.airjordan{
+    position:absolute;
+    left:800px;
+}
+ .example{
+    animation:offers 5s linear infinite;     
+} 
+.example1{
+    animation:offers1 10s linear infinite;
+}
+/* @keyframes offers{
+    from{
+        transform:translateX(-100px);
+    }
+    to{
+        transform:translateX(500px);
+    }
+} */
+/* @keyframes offers1{
+    from{
+        transform:translateX(900px);
+    }
+    to{
+        transform:translateX(-500px);
+    }
+} */
+.advertise{
+    position:absolute;
+    top:640px;
+    left:400px;
+
+}
+.quote,.quote1{
+    font-size: 3rem;
+    font-weight:900;
+}
+.airmax{
+    position:relative;
+    left:130px;
+}
+.quote1{
+    position:relative;
+    left:60px;
+}
+.buttons{
+    position:absolute;
+    top:160%;
+    left:450px;
+    
+    
+}
+.s,.s1{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px;
+    height:40px;
+    width:auto;
+    padding:10px;
+    color:white;
+    background-color: black;
+
+}
+.f{
+    position:absolute;
+    top:170%;
+}
+.women{
+    position:absolute;
+    top:180%;
+}
+.display-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ww,.mm,.kk{
+    position:absolute;
+}
+.mm{
+    left:420px;
+}
+.kk{
+    left:810px;
+}
+.ww{
+    left:30px;
+}
+.womens-wear{
+    position:absolute;
+    top:180%;
+    left:40px;
+}
+.mens-wear{
+    position:absolute;
+    top:180%;
+    left:430px;
+}
+.kids-wear{
+    position:absolute;
+    top:180%;
+    left:820px;
+}
+a{
+ text-decoration: none;
+ color:black;
+}
+a:hover{
+    color:black;
+}
+/* a:active{
+    color:rgb(35, 32, 32)
+} */
+/* .carouselExampleControls{
+    position:absolute;
+    top:500px;
+} */
+
+.myname{
+    position:absolute;
+    top:250%;
+}
+.container{
+    position:absolute;
+    top:250%;
+    border:1px solid black;
+    border-width: 0;
+    height:auto;
+    width:1900px;
+    left:50px;
+    display:flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    align-items: center;
+    
+    /* overflow-x:scroll;
+    overflow-y: hidden; */
+}
+::-webkit-scrollbar{
+    display:none;
+}
+ .images{
+    height:400px;
+    width:400px;
+    object-fit: contain;
+
+
+    padding:20px;
+} 
+.iconic{
+    position:relative;
+    top:10px;
+}
+.nikefootball{
+    /* display:flex;
+    justify-content: space-evenly; */
+    position:relative;
+    top:300%;
+}
+/* .video2{
+    left:30%;
+} */
+.nikebasketball{
+    position:relative;
+    top:310%;
+}
+/* video::-webkit-media-controls {
+    display: none;
+  } */
+  .footer{
+    display:flex;
+    height:400px;
+    width:100%;
+    background-color: black;
+    column-gap: 60px;
+    position:relative;
+    top:305%;
+    height:400px;
+    
+    
+
+}
+h5,h3{
+    color:white;
+}
+.x{
+    color:grey;
+}
+
+.x:hover{
+    color:whitesmoke;
+}
+.z{
+    color:white;
+}
+h5{
+align-items:center;
+}
+.icons{
+    position:relative;
+    left:300px;
+    top:50px;
+    width:100%;
+}
+
+.icons-separate{
+    display:flex;
+    column-gap: 30px;
+    
+}
+.bottomline{
+    display:flex;
+    align-items: flex-end;
+    
+    column-gap: 10px;
+}
+.first,.second,.third{
+    margin-top:30px;
+    margin-left: 30px;
+}
